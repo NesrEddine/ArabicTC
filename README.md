@@ -1,0 +1,2 @@
+# ArabicTC
+Arabic text classification
