@@ -90,7 +90,7 @@ class Helper():
 
     # Pre-processing Pipeline, before prediction (Get article Bag of Words)
     def pipeline(self, content):
-        cleanArticle = self.getCleanArsgd_94ticle(content)
+        cleanArticle = self.getCleanArticle(content)
         lemmaContent = self.getLemmaArticle(cleanArticle)
         cleanArticle = self.getCleanArticle(lemmaContent).split()
         return ' '.join(cleanArticle)
